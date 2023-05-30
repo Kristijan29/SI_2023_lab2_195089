@@ -1,1 +1,1 @@
-# SI_2023_lab2_195089
+Kristijan Mitkovski 195089
