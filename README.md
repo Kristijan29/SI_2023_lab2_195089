@@ -4,17 +4,13 @@
 
 ###  Control Flow Graph
 
-Control flow graph slikata e prikacena.
+Control flow graph - сликата е прикачена под име: " function_cfg "
 
 ### Цикломатска комплексност
 
 Еден начин за пресметка на цикломатската комплексност е преку формулата:
 
 V(G) = E - N + 2
-
-Ребра (edges): Ребрата претставуваат премините или врските помеѓу јазлите во контролната структура. Во контекстот на кодот, секоја инструкција или услов (if, for, while) може да се смета за едно ребро. Кога програмата ќе се изврши, ќе се движи од еден јазол до друг преку овие ребра.
-
-Јазли (nodes): Јазлите се местата или инструкциите во кодот каде што може да се прекине токот на извршување. Ова може да биде почетокот или крајот на програмата, инструкциите како услови, циклуси или функции. Секој јазол го претставува едно место каде што програмата може да заврши извршување или да премине на друг јазол.
 
 
 E = 20 (број на ребра)
@@ -28,33 +24,33 @@ V(G) = E - N + 2 = 20 - 16 + 2 = 6
 
 1. Проверка на условот дали user е null или дали user.getPassword() или user.getEmail() се null.
 
-Тест случаи:
-user е null или user.getPassword() или user.getEmail() се null.
-user не е null и user.getPassword() и user.getEmail() не се null.
+- Тест случаи:
+- user е null или user.getPassword() или user.getEmail() се null.
+- user не е null и user.getPassword() и user.getEmail() не се null.
 
 2. Проверка на условот дали user.getUsername() е null.
 
-Тест случаи:
-user.getUsername() е null.
-user.getUsername() не е null.
+- Тест случаи:
+ - user.getUsername() е null.
+ - user.getUsername() не е null.
 
 3. Проверка на условот дали user.getEmail() содржи @ и точка.
 
-Тест случаи:
-user.getEmail() содржи @ и точка.
-user.getEmail() не содржи @ или точка.
+- Тест случаи:
+- user.getEmail() содржи @ и точка.
+- user.getEmail() не содржи @ или точка.
 
 4. Циклус за секој елемент existingUser во листата allUsers.
 
-Тест случаи:
-allUsers е празна листа.
-allUsers има еден елемент.
-allUsers има повеќе од еден елемент.
+- Тест случаи:
+- allUsers е празна листа.
+- allUsers има еден елемент.
+- allUsers има повеќе од еден елемент.
 5. Проверка на условот дали existingUser.getEmail() е ист како user.getEmail().
 
-Тест случаи:
-existingUser.getEmail() и user.getEmail() се исти.
-existingUser.getEmail() и user.getEmail() не се исти.
+- Тест случаи:
+- existingUser.getEmail() и user.getEmail() се исти.
+- existingUser.getEmail() и user.getEmail() не се исти.
 
 Овие тест случаи ги покриваат сите можни премини во кодот според Every Branch критериумот.
 
