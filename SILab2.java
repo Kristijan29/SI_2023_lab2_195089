@@ -59,10 +59,6 @@ public class SILab2 {
         }
 
 
-        if (same == 0) {
-            // Invalid credentials
-        }
-
         String specialCharacters="!#$%&'()*+,-./:;<=>?@[]^_`{|}";
         String password = user.getPassword();
         String passwordLower = password.toLowerCase();
